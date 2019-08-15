@@ -54,7 +54,7 @@ function newMenu(arr){
     div.classList.toggle('menu--open')
   });
 
-  return newMenu
+  return div
 }
 
 let menu = newMenu(menuItems);
