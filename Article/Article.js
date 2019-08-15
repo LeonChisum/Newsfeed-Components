@@ -136,6 +136,7 @@ const data = [
   const span = document.createElement('span');
   span.className = "expandButton";
   span.textContent = 'click for more'
+  span.style.marginTop = '15px'
   span.addEventListener('click', function(){
     div.classList.toggle('article-open')
   });
